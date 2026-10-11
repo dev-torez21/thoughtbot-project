@@ -1,6 +1,803 @@
-.body{
+@import url('https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
     background-color: #201313;
 }
-.nav 1{
-    
+
+.nav1 {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    /* position: fixed; */
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 20px;
+    /* width: 100%; */
+    gap: 100px;
+}
+
+.logo {
+    gap: 7px;
+}
+
+.center {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+}
+
+.rt-img:hover {
+    filter: brightness(0) saturate(100%) invert(86%) sepia(23%) saturate(3404%) hue-rotate(345deg) brightness(101%) contrast(102%);
+}
+
+.logo {
+    font-family: "Scoutie Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.thought {
+    text-decoration: none;
+    color: white
+}
+
+.main {
+    max-width: 60%;
+}
+
+.Services {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.Industries {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.Case {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.Resources {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.blog {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffc726;
+}
+
+.center a:hover {
+    text-decoration: underline;
+    color: #ffc726;
+}
+
+.button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: #ce2d2d;
+    color: white;
+    padding: 10px 10px;
+}
+
+.button:hover {
+    border: 2px solid #201313;
+    outline: 4px solid #ce2d2d;
+    outline-offset: 4px;
+}
+
+.header1 {
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: #FAF9F9;
+    margin-left: 20%;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.Logolink {
+    color: #ffc726;
+}
+
+.Logolink:hover {
+    text-decoration: none;
+}
+
+.divider1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
+.nav2 {
+    margin-left: 20%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 20%;
+    text-align: left;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.Alltopic {
+    border-radius: 25px;
+    color: #201313;
+    background-color: #ffc726;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Design:hover {
+    background-color: #FFE7A3;
+    color: #201313;
+}
+
+.Design {
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #655854;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Development:hover {
+    background-color: #FFE7A3;
+    color: #201313;
+}
+
+.Development {
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #655854;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.moretopics {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+    font-size: 22.5px;
+    color: white;
+    text-decoration: underline dotted #ffffff;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px
+}
+
+.moretopics:hover {
+    text-decoration: none;
+    color: #ffc726;
+}
+
+.Product:hover {
+    background-color: #FFE7A3;
+    color: #201313;
+}
+
+.Product {
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #655854;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Header2 {
+    padding-bottom: 15px;
+}
+
+.Header2 a {
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 31.5px;
+    font-weight: 700;
+    color: white;
+    margin-left: 20%;
+    text-decoration: none;
+}
+
+.Header2 :hover {
+    color: #ffc726;
+}
+
+.para {
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    color: white;
+    margin-left: 20%;
+    padding-bottom: 15px;
+}
+
+.para1 {
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-left: 20%;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.para1 a {
+    text-decoration: none;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffc726;
+}
+
+.essence {
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    margin-left: 20%;
+    text-decoration: none;
+    display: inline;
+}
+
+.essence a:hover {
+    color: #ffc726;
+}
+
+.essence a {
+    text-decoration: none;
+    color: white;
+}
+
+.signup {
+    background-color: #2f1c1c;
+    color: white;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding-top: 25px;
+    padding-left: 40px;
+    border-radius: opx;
+    margin-top: 70px;
+    height: 250px;
+    width: 850px;
+    margin-bottom: 25px;
+}
+
+.Signup {
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FAF9F9;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.signupform {
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.email-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-field label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: #f2e9e9;
+    padding-left: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.email-field input {
+    height: 40px;
+    /* padding: 0 14px; */
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8a8080;
+    outline: none;
+}
+
+.email-field input:focus {
+    border-bottom-color: #e03131;
+    caret-color: #e03131;
+}
+
+button {
+    height: 54px;
+    padding: 0 36px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e03131;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    /* margin-left: 30px; */
+    margin-right: 40px;
+}
+
+.sectionlink {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 22%;
+    gap: 100px;
+}
+
+.section-text {
+    background-color: #201313;
+    text-align: left;
+    padding-top: 5px;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: rgb(234, 230, 228);
+}
+
+.feed-link {
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30.6px;
+    color: #FFE7A3;
+    gap: 50px;
+}
+
+.feed-link:hover {
+    color: #ffc726;
+}
+
+.arrow {
+    transform: scaleX(4);
+    transform-origin: left center;
+    margin-right: 18px;
+}
+
+.linkimage:hover {
+    filter: brightness(0) saturate(100%) invert(86%) sepia(23%) saturate(3404%) hue-rotate(345deg) brightness(101%) contrast(102%);
+}
+
+.flinks-words {
+    text-decoration: underline dotted #FFE7A3;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.flinks-words:hover {
+    text-decoration: none;
+}
+
+.main-flink {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.linkimage {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(21%) saturate(1454%) hue-rotate(307deg) brightness(103%) contrast(102%);
+}
+
+.dark-divider {
+    margin-left: 20%;
+    margin-right: 17%;
+    height: 1px;
+    background-color: #2f1c1c;
+    border: 1px solid #2f1c1c;
+    margin-bottom: 70px;
+}
+
+.header-2 {
+    margin-left: 20%;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 31.5px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.header-2:hover {
+    color: #ffc726;
+}
+
+.para3 {
+    color: white;
+    margin-right: 20%;
+    background-color: #201313;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    margin-left: 20%;
+    padding-bottom: 15px;
+}
+
+.joelpara {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-right: 20%;
+    margin-left: 21%;
+    color: rgb(234, 230, 228);
+    padding-bottom: 15px;
+}
+
+.joelpara a {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    line-height: 30.375px;
+    color: #FFE7A3;
+    text-decoration: none;
+}
+
+.joelpara a:hover {
+    color: #ffc726;
+}
+
+.Llm {
+    margin-right: 20%;
+    margin-left: 21%;
+    display: flex;
+    gap: 7px;
+    padding-bottom: 20px;
+}
+
+.Llm a {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15.84px;
+    font-weight: 700;
+    line-height: 23.76px;
+    color: #eae6e4;
+    text-decoration: none;
+}
+
+.Llm a:hover {
+    color: #ffc726;
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 17%;
+    height: 1px;
+    background-color: #2f1c1c;
+    border: 1px solid #2f1c1c;
+    margin-bottom: 20px;
+}
+
+.Header3 {
+    margin-left: 21%;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 31.5px;
+    font-weight: 700;
+    color: #eae6e4;
+    padding-bottom: 15px;
+}
+
+.thiagopara {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-right: 20%;
+    margin-left: 21%;
+    color: rgb(234, 230, 228);
+    padding-bottom: 15px;
+}
+
+.thiagopara a {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    line-height: 30.375px;
+    color: #FFE7A3;
+    text-decoration: none;
+}
+
+.thiagopara a:hover {
+    color: #ffc726;
+}
+
+.DATABASES {
+    margin-right: 20%;
+    margin-left: 21%;
+    display: flex;
+    gap: 7px;
+    padding-bottom: 40px;
+}
+
+.DATABASES a {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15.84px;
+    font-weight: 700;
+    line-height: 23.76px;
+    color: #eae6e4;
+    text-decoration: none;
+}
+
+.DATABASES a:hover {
+    color: #ffc726;
+}
+
+.para4 {
+    color: white;
+    margin-right: 20%;
+    background-color: #201313;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 20.25px;
+    font-weight: 400;
+    margin-left: 21%;
+    padding-bottom: 15px;
+}
+
+.AI {
+    margin-right: 20%;
+    margin-left: 21%;
+    display: flex;
+    gap: 7px;
+    padding-bottom: 40px;
+}
+
+.AI a {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15.84px;
+    font-weight: 700;
+    line-height: 23.76px;
+    color: #eae6e4;
+    text-decoration: none;
+}
+
+.AI a:hover {
+    color: #ffc726;
+}
+
+.bodyul {
+    display: flex;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 38.25px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.Active1 {
+    color: #ffc726;
+}
+
+.ul-no {
+    text-decoration: underline dotted #eae6e4;
+    color: #eae6e4;
+}
+
+.ul-no:hover {
+    color: #ffc726;
+    text-decoration: underline solid #ffc726;
+}
+
+.dot {
+    color: #eae6e4;
+}
+
+.Next {
+    text-decoration: underline dotted #eae6e4;
+    color: #eae6e4;
+}
+
+.Next:hover {
+    color: #ffc726;
+    text-decoration: underline solid #ffc726;
+}
+
+.last-hr {
+    margin: 0;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.f-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.f-child1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-child1a {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.f-child1a img {
+    width: 50px;
+    height: 50px;
+}
+
+.f-child1a span {
+    font-family: "Scoutie Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #eae6e4;
+    align-items: center;
+}
+
+.f-child1b {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.f-child1bi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.f-child1bilink {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: rgb(234, 230, 228);
+    text-decoration: underline dotted #eae6e4;
+}
+
+.f-child1bilink:hover {
+    color: #ffc726;
+    text-decoration: none;
+}
+
+.let:hover {
+    color: #ffc726;
+    text-decoration: none;
+}
+
+.let {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: #FFE7A3;
+    text-decoration: underline solid #FFE7A3;
+}
+
+.f-child1bii {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.f-child1biii {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+.f-child2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.f-child2a {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #c1bab7;
+
+}
+.f-child2a p {
+    width: 550px;
+}
+.f-child2b {
+    display: flex;
+    flex-direction: column;
+}
+.f-child2bul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.f-child2bulb {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.endlink {
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #c1bab7;
+text-decoration: underline dotted #c1bab7;
+}
+.endlink:hover {
+    text-decoration: none;
 }
